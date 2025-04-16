@@ -103,8 +103,8 @@ public class Main {
         System.out.println("Initial Employee Details:");
         payrollSystem.displayEmployees();
 
-//        System.out.println("\nRemoving Employee...");
-//        payrollSystem.removeEmployee(101);
+        System.out.println("\nRemoving Employee...");
+        payrollSystem.removeEmployee(101);
 
         System.out.println("\nRemaining Employee Details:");
         payrollSystem.displayEmployees();
